@@ -117,6 +117,86 @@
  // 1se n tk numbers ka sum nikalo
  let sum=0;
  for (let i=1; i<n; i++ ){
+
+  // console.log("chitrangna");
+
+// function add(a,b){
+//     console.log(a-b);
+// }
+// add("5",1);
+
+// //what is array described by square bracis and store multiple values 
+
+// let arr=[1,2,3,4];
+
+// console.log(arr);//print the whole array
+// console.log(arr[0]);//print the particular element of array
+
+// //if we want to add any value to array we use push 
+// arr.push("sciences");// it will always add at the last 
+// console.log(arr);
+
+// //if we want to remove the element if use pop
+
+// arr.pop(2);// it will always remove from the last it
+// //  does'nt care what you have written in the bracis
+// console.log(arr);
+
+// //if we want to add any element to the starting of the array we use unshift
+// arr.unshift("hello");
+// console.log(arr);
+
+// //if we want to remove any element from the starting of the array we use shift
+// arr.shift();
+// console.log(arr);
+
+// // if we want to check kya koi element kisi array me present h to hum use krte h 
+
+// function array(){
+// let age=[12,13,26,29];
+
+// let adults=age.filter(age>=18);
+
+// console.log(age);
+// }
+
+
+
+// //-----------------------------------------------------------------------------------//
+
+// //objects
+// // isme hum keywords k form me data store krte hai 
+
+// let student={
+//     name:" chitrangna",
+//     class:12,
+    
+
+// };
+// console.log(student.name);
+// console.log(student.class);
+
+// //Count how many numbers are between 1 and 100  //dont know this question
+
+// for (let i = 1; i <= 100; i++) {
+//   console.log(i);
+// }
+
+//Find the sum of numbers from 1 to 100
+
+// 
+
+
+
+//Answer
+
+// var a=3;
+
+// {
+//     var b=3;
+//     console.log(a);
+// }
+// console.log(b)
     console.log(i+i);
 
  }
