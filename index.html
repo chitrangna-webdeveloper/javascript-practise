@@ -3,11 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>javascript-practise</title>
     <link rel="stylesheet" href="style.css">
+    <title>js-practise</title>
+    <style>
+        #bulb{
+        width:100px;
+        height:100px;
+        border-radius:50%;
+        background:white;
+        border:2px solid black;
+
+        }
+    </style>
 </head>
 <body>
-    
-<script src="script.js"></script>
+
+    <div id="bulb"></div>
+
+    <button id="btn">ON/OFF</button>
+
+    <script>
+        let bulb = document.getElementById("bulb");
+        let btn = document.getElementById("btn");
+
+        var on = false;
+
+        btn.addEventListener("click", function() {
+            if (!on) {
+                bulb.style.backgroundColor = "yellow";
+                on = true;
+            } else {
+                bulb.style.backgroundColor = "white";
+                on = false;
+            }
+        });
+    </script>
+
 </body>
 </html>
