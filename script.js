@@ -61,3 +61,11 @@ dividebtn.addEventListener("click", function () {
     let div = Number(num1.value) / Number(num2.value);
     result.innerText = "Division = " + div;
 });
+
+resetbtn.addEventListener("click", function () {
+
+    num1.value = "";
+    num2.value = "";
+    result.innerText = "Result";
+
+});
