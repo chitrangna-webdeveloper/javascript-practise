@@ -24,7 +24,9 @@ addbtn.addEventListener("click", function () {
 
     if (!checkInputs()) return;
 
-    result.innerText = Number(num1.value) + Number(num2.value);
+    let sum = Number(num1.value) + Number(num2.value);
+    result.innerText = "Addition = " + sum;
+    
 
 });
 
@@ -32,15 +34,16 @@ subbtn.addEventListener("click", function () {
 
     if (!checkInputs()) return;
 
-    result.innerText = Number(num1.value) - Number(num2.value);
-
+    let sub = Number(num1.value) - Number(num2.value);
+    result.innerText = "Subtraction = " + sub;
 });
 
 multiplybtn.addEventListener("click", function () {
 
     if (!checkInputs()) return;
 
-    result.innerText = Number(num1.value) * Number(num2.value);
+    let mul = Number(num1.value) * Number(num2.value);
+    result.innerText = "Multiplication = " + mul;
 
 });
 
@@ -55,6 +58,6 @@ dividebtn.addEventListener("click", function () {
         return;
     }
 
-    result.innerText = Number(num1.value) / Number(num2.value);
-
+    let div = Number(num1.value) / Number(num2.value);
+    result.innerText = "Division = " + div;
 });
