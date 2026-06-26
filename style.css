@@ -37,24 +37,6 @@ body{
     font-size:28px;
 }
 
-/* Small Green Tag */
-
-.tag{
-
-    display:inline-block;
-
-    background:#E8F7BE;
-
-    color:#6F8F28;
-
-    padding:8px 18px;
-
-    border-radius:30px;
-
-    margin-bottom:20px;
-
-    font-size:14px;
-}
 
 input{
 
