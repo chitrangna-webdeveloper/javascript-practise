@@ -6,6 +6,9 @@ let addbtn = document.getElementById("addbtn");
 let subbtn = document.getElementById("subbtn");
 let multiplybtn = document.getElementById("multiplybtn");
 let dividebtn = document.getElementById("dividebtn");
+let result = document.getelementById("result");
+
+
 
 function checkInputs() {
     if (num1.value === "" || num2.value === "") {
@@ -15,29 +18,27 @@ function checkInputs() {
     return true;
 }
 
-addbtn.addEventListener("click" , function(){
-    console.log(Number(num1.value)+Number(num2.value));
+addbtn.addEventListener("click", function () {
     if (!checkInputs()) return;
 
-
+    result.innerHTML = Number(num1.value) + Number(num2.value);
 });
-subbtn.addEventListener("click" , function(){
-    console.log(Number(num1.value)-Number(num2.value));
+
+subbtn.addEventListener("click", function () {
     if (!checkInputs()) return;
 
-
+    result.innerHTML = Number(num1.value) - Number(num2.value);
 });
-multiplybtn.addEventListener("click" , function(){
-    console.log(Number(num1.value)*Number(num2.value));
+
+multiplybtn.addEventListener("click", function () {
     if (!checkInputs()) return;
 
-
+    result.innerHTML = Number(num1.value) * Number(num2.value);
 });
-dividebtn.addEventListener("click" , function(){
-    console.log(Number(num1.value)/Number(num2.value));
+
+dividebtn.addEventListener("click", function () {
     if (!checkInputs()) return;
 
-
+    result.innerHTML = Number(num1.value) / Number(num2.value);
 });
-
  
