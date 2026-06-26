@@ -2,148 +2,78 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: "Poppins", sans-serif;
+    font-family:Poppins,sans-serif;
 }
 
 body{
-    height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-
-    background:#0d0d0d;
+    height:100vh;
+    background:#F9F8F3;
 }
 
 .calculator{
-
-    width:370px;
-
-    padding:35px;
-
-    background:#111;
-
-    border:2px solid #7CFC98;
-
+    width:380px;
+    background:#fff;
+    padding:30px;
     border-radius:20px;
-
-    box-shadow:0 0 25px rgba(124,252,152,.25);
-
-    text-align:center;
+    border:2px solid #8CB62C;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
 }
 
 .calculator h2{
-
-    color:#7CFC98;
-
+    text-align:center;
+    color:#222;
     margin-bottom:25px;
-
-    letter-spacing:1px;
 }
 
 input{
-
     width:100%;
-
     padding:14px;
-
     margin-bottom:18px;
-
-    border:2px solid #7CFC98;
-
-    border-radius:10px;
-
-    background:#1b1b1b;
-
-    color:white;
-
-    font-size:17px;
-
+    border:2px solid #DDF7A2;
+    border-radius:12px;
     outline:none;
-
+    font-size:16px;
     transition:.3s;
 }
 
-input::placeholder{
-
-    color:#bbb;
-}
-
 input:focus{
-
-    box-shadow:0 0 10px #7CFC98;
-
-    border-color:#7CFC98;
+    border-color:#8CB62C;
+    box-shadow:0 0 10px rgba(140,182,44,.3);
 }
 
 .buttons{
-
     display:grid;
-
     grid-template-columns:repeat(2,1fr);
-
     gap:15px;
 }
 
 button{
-
-    padding:14px;
-
-    border:none;
-
-    border-radius:10px;
-
-    background:#7CFC98;
-
-    color:#111;
-
+    padding:15px;
     font-size:24px;
-
     font-weight:bold;
-
+    border:none;
+    border-radius:12px;
     cursor:pointer;
-
+    background:#8CB62C;
+    color:white;
     transition:.3s;
 }
 
 button:hover{
-
-    background:white;
-
-    color:#111;
-
+    background:#222;
     transform:translateY(-3px);
-
-    box-shadow:0 0 15px #7CFC98;
-}
-
-button:active{
-
-    transform:scale(.95);
 }
 
 #result{
-
     margin-top:25px;
-
-    min-height:60px;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    background:#1b1b1b;
-
-    border:2px solid #7CFC98;
-
-    border-radius:10px;
-
-    color:#7CFC98;
-
+    padding:18px;
+    text-align:center;
+    border-radius:12px;
+    background:#DDF7A2;
+    color:#222;
     font-size:24px;
-
-    font-weight:bold;
-
-    box-shadow:0 0 10px rgba(124,252,152,.25);
+    font-weight:700;
 }
